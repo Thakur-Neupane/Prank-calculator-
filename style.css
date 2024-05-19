@@ -1,0 +1,39 @@
+.wrapper{
+  min-height: 100vh;
+  /* This flex is used to center the element */
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.calculator-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 500px;
+}
+
+
+
+.display-box{
+  border: 1px solid black;
+  text-align: end;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  gap:12px;
+}
+
+button{
+  height: 50px;
+  border-radius: 8px;
+  cursor:pointer;
+  font-weight: bolder;
+  flex:1;
+}
+.equal-button{
+  flex-basis:30%
+}
